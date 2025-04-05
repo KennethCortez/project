@@ -1,0 +1,54 @@
+/* siteplan.css */
+
+:root {
+    --font-title: 'IM Fell English SC', serif;
+    --font-body: 'Montserrat', sans-serif;
+  
+    --color-bg: #0C090A;
+    --color-text: #ffffff;
+    --color-accent: #8ab4f8;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    font-family: var(--font-body);
+    line-height: 1.6;
+    padding: 2rem;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: auto;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 1rem;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+  }
+  
+  h1, h2 {
+    font-family: var(--font-title);
+    margin-bottom: 1rem;
+    color: var(--color-accent);
+  }
+  
+  h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
+  
+  p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+  }
